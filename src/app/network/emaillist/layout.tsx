@@ -16,7 +16,7 @@ export default function EmailListMgmtLayout({ children }: { children: React.Reac
 
         <Layout>
           {/* Header */}
-          <Header style={{ 
+          <Header style={{
             // backgroundColor: '#001529',
             //  color: '#fff', 
              backgroundColor: '#f0f2f5',
