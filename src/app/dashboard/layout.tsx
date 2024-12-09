@@ -3,7 +3,7 @@
 import React from 'react';
 import ClientLayout from '@/components/ClientLayout';
 import { Layout } from 'antd';
-import Sidebar from '@/components/Sidebar'; // Adjust the path to your Sidebar component
+import Sidebar from '@/components/Sidebar';
 import CustomHeader from '@/components/Header';
 
 const { Content, Header, Footer } = Layout;
