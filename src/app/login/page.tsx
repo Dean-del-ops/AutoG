@@ -21,7 +21,8 @@ export default function LoginPage() {
     await dispatch(login(email, password) as any);
     dispatch(setMenu(["admin"]))
     if (isAuthenticated) {
-      router.push('/dashboard'); // Redirect to dashboard after login
+      // Redirect to dashboard after login
+      router.push('/dashboard'); 
     }
   };
 
